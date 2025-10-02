@@ -1,7 +1,6 @@
 a = float(input("Nhập số thực: "))
 phannguyen = int(a)
 
-# Làm tròn xuống (floor)
 if a >= 0: 
     val3 = phannguyen
 else: 
@@ -10,7 +9,6 @@ else:
     else: 
         val3 = phannguyen - 1
 
-# Làm tròn lên (ceil)
 if a >= 0:
     if a == phannguyen: 
         val1 = phannguyen
@@ -19,9 +17,7 @@ if a >= 0:
 else: 
     val1 = phannguyen
 
-# Làm tròn gần nhất (round)
 digit = a - phannguyen
-
 if digit >= 0.5: 
     val2 = phannguyen + 1
 elif digit <= -0.5: 
