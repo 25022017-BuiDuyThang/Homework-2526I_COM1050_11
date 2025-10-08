@@ -1,6 +1,4 @@
-import sys
-sys.path.append(r"D:\Hoclieu\Tuduytinhtoan\ThinkpythLibrary")  
-import thinkpython 
+import math
 
 n = int(input())
 print(n)
